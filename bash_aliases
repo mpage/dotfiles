@@ -32,6 +32,5 @@ alias bers='bundle exec rake spec'
 alias rs='ruby -S rspec --color --format documentation'
 
 # random
-alias ack='ack-grep'
 alias ac='apt-cache'
 alias ..='cd ..'
