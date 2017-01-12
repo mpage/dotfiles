@@ -1,0 +1,5 @@
+# lexically sort filenames
+--sort-files
+
+# types ack doesn't know about
+--type-set=MARKDOWN=md
