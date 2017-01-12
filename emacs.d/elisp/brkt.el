@@ -1,0 +1,17 @@
+(define-skeleton brkt-copyright
+  "Inserts a Bracket copyright header at the current point"
+  "File Description: "
+  "/*===========================================================================\n"
+  " *                 Copyright (c) 2012 Bracket Computing Inc.\n"
+  " *                           All rights reserved.\n"
+  " *\n"
+  " *                   -- BRACKET COMPUTING CONFIDENTIAL --\n"
+  " *\n"
+  " * This is an unpublished work of Bracket Computing and is fully protected\n"
+  " * under copyright and trade secret laws. You may not view, use, disclose,\n"
+  " * copy or distribute this file or any information herein except pursuant to\n"
+  " * a valid written license from Bracket Computing.\n"
+  " *---------------------------------------------------------------------------\n"
+  " * " str | "< FILE DESCRIPTION GOES HERE > " "\n"
+  " *===========================================================================\n"
+  " */\n")
