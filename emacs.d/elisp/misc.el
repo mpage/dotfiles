@@ -9,3 +9,7 @@
 (defun close-all-buffers ()
   (interactive)
   (mapc 'kill-buffer (buffer-list)))
+
+(defun insert-todays-date ()
+  (interactive)
+  (insert (format-time-string "%Y-%m-%d")))

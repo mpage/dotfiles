@@ -15,5 +15,5 @@
 (line-number-mode t)
 (column-number-mode t)
 
-(set-face-attribute 'default nil :font  "fixed")
-(set-frame-font "fixed")
+;(set-face-attribute 'default nil :font  "fixed-6x13")
+;(set-frame-font "fixed-6x13")
